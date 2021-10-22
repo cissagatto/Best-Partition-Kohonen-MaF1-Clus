@@ -40,13 +40,13 @@ Confirms if the folder UTILS contains the following files: Clus.jar, R_csv_2_arf
 ### Step-5
 The results stored in the folder _OUTPUT_ in the codes _Generate-Partition-Kohonen, or Generate-Partition-Random1, or Generate-Partition-Random2 or Generate-Partition-Jaccard_ will be used here. Copy the folder with the name of the dataset in the folder _PARTITIONS_.
 
-<img src="https://github.com/cissagatto/Best-Partition-MacroF1/blob/main/images/Generate-Partitions-BPMaF1.png" width="300">
+<img src="https://github.com/cissagatto/Best-Partition-kohonen-MacroF1/blob/main/images/Generate-Partitions-BPMaF1.png" width="300">
 
 NOTE: Please, pay attention to the *datasets.csv* names and the names in the CSV file. They must be the same, on the contrary, an error may occur.
 
 ## Folder Strucutre
 
-<img src="https://github.com/cissagatto/Best-Partition-MacroF1/blob/main/images/Folder-Structure-BPMaF1.png" width="300">
+<img src="https://github.com/cissagatto/Best-Partition-kohonen-MacroF1//blob/main/images/Folder-Structure-BPMaF1.png" width="300">
 
 
 ## Software Requirements
@@ -73,13 +73,13 @@ _Then the experiment was executed in a cluster at UFSCar._
 ## Results
 The results are store in the folder _RESULTS_. The results stored in the folder _OUTPUT_ here, it will be used in the next phase. The OUTPUT for a dataset must be put in the folder _BESTPARTITIONS_ in the codes _Test-Best-Partition-Clus_, or _Test-Best-Partition-ECC_.
 
-<img src="https://github.com/cissagatto/Best-Partition-MacroF1/blob/main/images/OutPut-BPMaF1.png" width="300">
+<img src="https://github.com/cissagatto/Best-Partition-kohonen-MacroF1/blob/main/images/OutPut-BPMaF1.png" width="300">
 
-<img src="https://github.com/cissagatto/Best-Partition-MacroF1/blob/main/images/Resultados-BPMaF1.png" width="300">
+<img src="https://github.com/cissagatto/Best-Partition-kohonen-MacroF1/blob/main/images/Resultados-BPMaF1.png" width="300">
 
 
 ## RUN
-To run the code, open the terminal, enter */home/[username]/Best-Partition-MacroF1/scripts/* folder, and type:
+To run the code, open the terminal, enter */home/[username]/Best-Partition-kohonen-MacroF1/scripts/* folder, and type:
 
 ```
 Rscript macrof1.R [number_dataset] [number_cores] [number_folds] [name_folder_results]
